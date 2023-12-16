@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .fadeIn {
+    animation: fadeInAnimation 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    background-color: #181716;
+
+    -webkit-tap-highlight-color: transparent;
+
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    scroll-behavior: smooth;
+  
+}
+
+
+  .wFont {
+    color: #ccc5b9;
+}
+
+  .oFont {
+    color: #ED6F3F;
+  }
+
+::-moz-selection {
+    color: #181716;
+    background: #ED6F3F;
+  }
+  
+  ::selection {
+    color: #181716;
+    background: #ED6F3F;
+  }
+
+
+@font-face {
+    font-family: Fregular;
+    src: url(/fonts/SourceCodePro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fbold;
+    src: url(/fonts/SourceCodePro-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: Flight;
+    src: url(/fonts/SourceCodePro-Light.ttf);
+}
