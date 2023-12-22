@@ -1,1 +1,1 @@
-# findMeDef
+# Word Dōsatsu
